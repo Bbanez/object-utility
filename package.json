@@ -1,6 +1,6 @@
 {
   "name": "@banez/object-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package that provides utilities for JavaScript objects.",
   "author": "Branislav Vajagić",
   "license": "MIT",
