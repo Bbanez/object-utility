@@ -12,6 +12,7 @@ export type ObjectPropSchemaValidateType =
 export interface ObjectPropSchema {
   __type: 'string' | 'number' | 'boolean' | 'object' | 'array' | 'function';
   __required: boolean;
+  __name?: string;
   __validate?<T>(value: T | ObjectPropSchemaValidateType): boolean;
   __child?: ObjectPropSchemaArrayChild | ObjectSchema;
 }
